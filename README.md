@@ -13,6 +13,13 @@ The search is powered by **SpaCy** for NLP preprocessing and **PostgreSQL** for 
 - **List Courses**: Retrieve all courses in the database.
 
 ---
+## ⚙️ SpaCy Model Setup
+
+This project uses **SpaCy** for natural language processing.  
+After installing dependencies from `requirements.txt`, make sure to download the English language model:
+
+```bash
+python -m spacy download en_core_web_sm
 
 ## 🛠 Tech Stack
 - **Backend**: Django, Django REST Framework
