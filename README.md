@@ -20,7 +20,7 @@ After installing dependencies from `requirements.txt`, make sure to download the
 
 ```bash
 python -m spacy download en_core_web_sm
-
+```
 ## 🛠 Tech Stack
 - **Backend**: Django, Django REST Framework
 - **Database**: PostgreSQL
